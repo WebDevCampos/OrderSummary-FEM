@@ -1,1 +1,16 @@
 @import url(./reset.css);
+:root {
+  --main-bg: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --plan-bg: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --footer-link: hsl(228, 45%, 44%);
+}
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.attribution a {
+  color: var(--footer-link);
+}
